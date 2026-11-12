@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Igo Ichsan Pratama — Robotics & Embedded Systems Engineer</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #131a2a;
+      --border: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0ea5e9;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+    header {
+      margin-bottom: 3.5rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--accent);
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 650px;
+      margin-bottom: 1.75rem;
+    }
+    .actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.65rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #0b0f19;
+    }
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+    .btn-secondary {
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      border-color: var(--accent);
+    }
+    section {
+      margin-bottom: 3.5rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+    .card p {
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .tag {
+      font-size: 0.78rem;
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--muted);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Available for Robotics & Embedded Projects</span>
+      <h1>Igo Ichsan Pratama</h1>
+      <p class="subtitle">
+        Electrical Engineering & Freelance Robotics Developer specializing in autonomous UAV systems, embedded firmware, ROS/ROS 2 simulation, and edge computer vision.
+      </p>
+      <div class="actions">
+        <a href="https://github.com/IgoIPratama" target="_blank" class="btn btn-primary">GitHub Profile</a>
+        <a href="mailto:igomc28@gmail.com" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Core Technical Stack</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Flight Controllers & UAV</h3>
+          <p>Custom quadcopter & coaxial UAV architecture, ArduPilot/PX4 firmware configuration, FFT vibration analysis, and PID tuning.</p>
+          <div class="tags">
+            <span class="tag">ArduPilot</span>
+            <span class="tag">Pixhawk</span>
+            <span class="tag">MAVLink</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Robotics & Simulation</h3>
+          <p>Autonomous navigation, sensor fusion, and physics-based digital twins for aerial and underwater vehicles.</p>
+          <div class="tags">
+            <span class="tag">ROS / ROS 2</span>
+            <span class="tag">Gazebo SITL</span>
+            <span class="tag">C++ / Python</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Edge AI & Embedded</h3>
+          <p>Real-time 2D LiDAR point-cloud processing, microcontroller firmware, and hardware circuit prototyping.</p>
+          <div class="tags">
+            <span class="tag">Jetson Nano</span>
+            <span class="tag">ESP32</span>
+            <span class="tag">LiDAR / OpenCV</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Real-Time Forest Inventory UAV</h3>
+          <p>Edge-computing drone system combining 2D LiDAR, rangefinder, and Non-Linear Least Squares geometric circle fitting on Jetson Nano for tree diameter estimation.</p>
+        </div>
+        <div class="card">
+          <h3>Underwater AUV Plume Simulation</h3>
+          <p>Gazebo simulation environment featuring ocean current physics, acoustic/chemical leak plume modeling, and autonomous survey trajectories.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 Igo Ichsan Pratama &bull; Hosted on igoichsanp.me
+    </footer>
+  </div>
+</body>
+</html>
